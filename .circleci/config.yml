@@ -6,5 +6,3 @@ jobs:
      - checkout
      - run: docker build -t mnaveensmn/docker-react -f Dockerfile.dev .
      - run: docker run -e CI=true mnaveensmn/docker-react npm run test
-     - setup_remote_docker:
-          version: 19.03.13
