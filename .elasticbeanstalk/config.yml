@@ -1,0 +1,8 @@
+branch-defaults:
+  main:
+    environment: Dockerreact-env
+global:
+  application_name: docker-react
+  default_platform: Docker running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  sc: git
